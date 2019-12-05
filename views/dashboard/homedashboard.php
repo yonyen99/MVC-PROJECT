@@ -1,13 +1,4 @@
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <form class="form-inline" action="/action_page.php">
-    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-    <button class="btn btn-success" type="submit">Search</button>
-  </form>
-</nav>
-<br>
-
-<div class="container">
-  <h3>Navbar Forms</h3>
-  <p>Use the .form-inline class to align form elements side by side inside the navbar.</p>
-</div>
+<h1 class ="text-center">This is the dashboar of home page </h1>
+<a href="views/class/wep_a.php">Web A</a>
+<a href="views/class/wep_b.php">Web b</a>
+<a href="views/class/sna.php">sna</a>
