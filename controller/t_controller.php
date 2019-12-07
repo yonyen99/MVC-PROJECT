@@ -12,12 +12,16 @@ function flexible_function(&$data)
 }
 
 function login(&$data){
+   
     $data['page'] = "authentication/login";
 }
 
 function dashboard(&$data) {
+   
     $data['page'] = "dashboard/homedashboard";
 }
-
-
+function wepa(&$data) {
+  
+    $data['page'] = "class/wep_a";
+}
 
