@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
     <style>
         .img-fluid {
             width: 1000px;
@@ -31,6 +30,17 @@
         </div>
     </div>
     <h1 class="text-center text-warning mt-4">Attendent List</h1>
+    <!-- <button class="btn btn-success float-right">View details</button> -->
+    
+    <div class="cotainer">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+            <a href="views/viewabsents/allabsents.php" class="btn btn-success float-right">View details</a>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
     <div class="container-fluid mt-5">
         <div class="row">
             <div class="col-1"></div>
@@ -60,7 +70,7 @@
                                 <img class="img-fluid" src="img/1.jpg" alt="Chania">
                             </div>
                             <div class="card-footer">
-                                <a href="views/class/wep_b.php" class="btn btn-outline-warning">More details</a>
+                            <a href="index.php?action=wepb" class="btn btn-outline-warning">More details</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +84,7 @@
                                 <img class="img-fluid" src="img/1.jpg" alt="Chania">
                             </div>
                             <div class="card-footer">
-                                <a href="views/class/sna.php" class="btn btn-outline-warning">More details</a>
+                            <a href="index.php?action=sna" class="btn btn-outline-warning">More details</a>
                             </div>
                         </div>
                     </div>
@@ -83,5 +93,4 @@
             <div class="col-1"></div>
         </div>
     </div>
-
 </body>

@@ -5,8 +5,7 @@
             <th>F-Name</th>
             <th>L-Name</th>
             <th>Sext</th>
-            <th>Have-Permission</th>
-            <th>No-Permission</th>
+            <th>Permission</th>
             <th>Description</th>
         </tr>
     </thead>
@@ -20,18 +19,7 @@
                     <td><?php echo $rows['firstName']; ?></td>
                     <td><?php echo $rows['lastName']; ?></td>
                     <td><?php echo $rows['sex']; ?></td>
-                    <td>
-                        <?php echo $rows['havePermission']; ?>
-                        <form action="/action_page.php">
-                            <input type="checkbox" name="vehicle1" value="Bike"><br>
-                        </form>
-                    </td>
-                    <td>
-                        <?php echo $rows['noPermission']; ?>
-                        <form action="/action_page.php">
-                            <input type="checkbox" name="vehicle1" value="Bike"><br>
-                        </form>
-                    </td>
+                    <td><?php echo $rows['permission']; ?></td>
                     <td>
                         <?php echo $rows['description']; ?>
                         <textarea name="text" cols="30" rows="1"></textarea>
@@ -41,7 +29,6 @@
     <?php
         }
     }
-
     ?>
      <button type="submit" class="btn btn-outline-danger">Save</button>
 </table>
